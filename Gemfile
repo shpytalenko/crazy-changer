@@ -54,7 +54,7 @@ end
 
 # Devise: https://github.com/plataformatec/devise
 gem 'devise', '3.4.1'
-
+gem 'heroku'
 # Redcarpet: https://github.com/vmg/redcarpet
 gem 'redcarpet', '3.2.3'
 
