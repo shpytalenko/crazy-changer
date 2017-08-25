@@ -25,7 +25,13 @@ gem 'font-awesome-sass', '4.3.2.1'
 
 # Bootstrap 3: https://github.com/twbs/bootstrap-sass
 gem 'bootstrap-sass', '3.3.4.1'
-
+gem 'active_link_to'
+gem 'twitter-bootstrap-rails', github: 'seyhunak/twitter-bootstrap-rails', branch: 'bootstrap3'
+gem 'simple_form'
+gem 'bootstrap-wysihtml5-rails'
+gem 'ransack', github: 'activerecord-hackery/ransack'
+gem 'ransack_simple_form'
+#gem 'rails_admin'
 group :development, :test do
   gem 'byebug', '4.0.5'
   gem 'web-console', '2.1.2'
